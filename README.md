@@ -106,4 +106,19 @@ Send any message or post, spend money, publish or deploy, delete anything outsid
 Everything except `00 Inbox` and `01 Daily`. The other folders are the agents' filing system. Browse them whenever you like.
 
 ## License
-Not chosen yet. Until a license is added, ask before reusing or redistributing.
+
+Copyright © 2026 Max Corti.
+
+This Second Brain Starter Pack is provided freely to help individuals build, organize, and improve their personal knowledge management systems.
+
+**Documentation, templates, prompts, and instructional materials** are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+**Software scripts, executable code, and configuration files** are licensed under the [MIT License](https://opensource.org/license/mit).
+
+You are welcome to use, modify, adapt, and redistribute these resources, including for commercial purposes, provided you comply with the applicable license conditions.
+
+If you redistribute or adapt the materials, please retain the required attribution and license notices.
+
+Original project by Max Corti — [maxcorti.com](https://maxcorti.com/).
+
+See [LICENSE](LICENSE) and [LICENSE-CC-BY-4.0.md](LICENSE-CC-BY-4.0.md).
