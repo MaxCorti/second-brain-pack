@@ -12,7 +12,7 @@ hooks:
 
 1. Run `/triage` first if there are untriaged captures.
 2. Read the last 7 daily notes, the week's triage and agent-run logs, `_me/Goals.md`, `_me/Skills and Tools.md`.
-3. **Projects:** query Notion Projects; refresh `status`/`phase`/`synced` in each `03 Projects/` note; create notes for new projects; move Complete ones to `07 Archive/`.
+3. **Projects:** query Notion Projects; refresh `status`/`synced` in each `03 Projects/` note; create notes for new projects; move Complete ones to `07 Archive/`.
 4. **Tasks:** query Notion Tasks for Inbox items older than 7 days, `Waiting` items waiting on the owner, and Agent tasks awaiting review. List them; don't change them.
 5. **Ideas:** go through `02 Ideas/`. Rank the top 3 worth a next step against the owner's goals (say why), and suggest one Executor = Agent research or prototype task for each. Propose those tasks in Notion (Status Inbox) only if the owner agrees during the review.
 6. **Patterns:** energy/mood trends, recurring worries or themes, promises made to people (link `06 People/`). Mark everything `inferred`.

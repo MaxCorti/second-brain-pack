@@ -19,7 +19,7 @@
    Approve the `notion` server, type `/mcp`, pick `notion`, log in. On Notion's approval screen, choose **Demo Brain** in the workspace picker, not your real workspace.
 4. **Check it's the right workspace before anything else.** Paste: *"Search Notion and list the top-level pages you can see. Don't create anything."* If you see any page from your real workspace, stop, run `/mcp` again and reconnect to Demo Brain.
 5. **Build the board.** Paste the prompt from `NOTION-SETUP-PROMPT.md` (in the pack root). When it asks for life areas, answer: **Build, Health, Learning**. Durations: **15 min, 30 min, 1 h, 2 h+**. Energy: **Low, Medium, High**. It fills the IDs into `_system/notion-bridge.md` of the demo vault only.
-6. **Add the sample data.** Paste: *"Create these demo projects and tasks in the Command databases exactly as listed. Don't set any other properties."* followed by the two tables below.
+6. **Add the sample data.** Paste: *"Create these demo projects and tasks in the Command databases exactly as listed. Don't set any other properties."* followed by the two tables below. Leave Daily Win unticked and Context / Mode empty.
 7. **After testing or filming:** in your real vault, run `/mcp` and check `notion` still points at your real workspace (reconnect if it doesn't). If Claude Code shares the login between the two folders, reconnecting is all it takes; check once so your next real `/brain` run doesn't write to the demo.
 
 ### Demo projects
@@ -32,14 +32,14 @@
 ### Demo tasks
 | Task | Status | Executor | Agent OK | Priority | Project | Source | Waiting For |
 |---|---|---|---|---|---|---|---|
-| Compare free static site hosts for the portfolio | Inbox | Agent | no | P3 Normal | Portfolio Website | 01 Daily/2026-11-03.md | |
-| Pick three projects for the portfolio | Next | Me | no | P2 Important | Portfolio Website | 01 Daily/2026-11-04.md | |
-| Draft the About page text for the portfolio | Waiting | Agent | yes | P3 Normal | Portfolio Website | 01 Daily/2026-11-04.md | Owner: review agent result |
-| Write the booking-flow case study | Doing | Me | no | P2 Important | Portfolio Website | | |
-| Compress portfolio images before upload | Inbox | Together | no | P3 Normal | Portfolio Website | 01 Daily/2026-11-04.md | |
-| Finish course module 5 | Next | Me | no | P3 Normal | Front-end Course | | |
-| Plan a long run route for Sunday | Done | Me | no | P3 Normal | Running Routine | | |
-| Choose a domain name for the portfolio | Someday | Me | no | P3 Normal | Portfolio Website | | |
+| Compare free static site hosts for the portfolio | Inbox | Agent | no | P3 - Normal | Portfolio Website | 01 Daily/2026-11-03.md | |
+| Pick three projects for the portfolio | Next | Me | no | P2 - Important | Portfolio Website | 01 Daily/2026-11-04.md | |
+| Draft the About page text for the portfolio | Waiting | Agent | yes | P3 - Normal | Portfolio Website | 01 Daily/2026-11-04.md | Owner: review agent result |
+| Write the booking-flow case study | Doing | Me | no | P2 - Important | Portfolio Website | | |
+| Compress portfolio images before upload | Inbox | Together | no | P3 - Normal | Portfolio Website | 01 Daily/2026-11-04.md | |
+| Finish course module 5 | Next | Me | no | P3 - Normal | Front-end Course | | |
+| Plan a long run route for Sunday | Done | Me | no | P3 - Normal | Running Routine | | |
+| Choose a domain name for the portfolio | Someday | Me | no | P3 - Normal | Portfolio Website | | |
 
 What to expect on camera with this data (agents decide the details, so do one test run before filming):
 - Tick **Agent OK** on "Compare free static site hosts" and move it to **Next**: the next `/brain` run picks it up.
